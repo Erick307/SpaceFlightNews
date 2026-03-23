@@ -21,7 +21,7 @@ An iOS app built with **SwiftUI** that lets users browse and search space flight
 The project follows the **MVI (Model–View–Intent)** pattern, keeping state management unidirectional and predictable.
 
 ```
-┌──────────┐   Intent   ┌───────────┐   async   ┌────────────┐
+┌──────────┐   Intent   ┌───────────┐   async    ┌────────────┐
 │   View   │ ─────────► │ ViewModel │ ─────────► │ Repository │
 │ (SwiftUI)│            │           │            │  (Network) │
 │          │ ◄───────── │           │            │            │
